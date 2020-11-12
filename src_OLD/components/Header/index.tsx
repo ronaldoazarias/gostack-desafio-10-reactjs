@@ -15,7 +15,12 @@ const Header: React.FC<IHeaderProps> = ({ openModal }) => (
       <img src={Logo} alt="GoRestaurant" />
       <nav>
         <div>
-          <button type="button" onClick={openModal}>
+          <button
+            type="button"
+            onClick={() => {
+              /* TODO OPEN MODAL */
+            }}
+          >
             <div className="text">Novo Prato</div>
             <div className="icon">
               <FiPlusSquare size={24} />
